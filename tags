@@ -1,0 +1,79 @@
+BASICS
+<!DOCTYPE html> - defining 
+<html> - container
+<title> - tab name
+<header> - top text
+<meta> - data about the webpage. Placed in header
+    <meta name="description" content="XXXX">
+                "keywords" - keywords for searh engine
+                "author" - author
+                "viewport content="width=device-width, initial scale =N" - page scaling on devices
+          charset="UTF-8" - char. encoding 
+          http-equiv="refresh" content="N" - refreshing page every N seconds
+<body> - body
+<br> - new line
+<hr> - horizontal line
+<iframe src=" "> - insert content from another source (webpage)
+<!-- COMMNET -->
+HYPERLINKS
+<a 
+href="the link/file name" - setting the link 
+href="mailto:what123@gmail.com" - emailing
+target=_self - opening link in the existing tab
+target=_blank - opening link in new tab
+title="text" - setting text when pointing on a link
+
+>
+</a>
+
+IMAGES
+<img src="link/file location"> -  Adding images
+<img height = "N" width = "N"> - dimensions 
+<img alt="description"> - adding description to images
+
+<source src=""> - source element
+
+AUDIO
+<audio controls> - adding control bar
+<audio autoplay muted loop> - autoplay/start muted/loop
+
+TEXT 
+<p> - paragraph
+<b> - bold
+<i> - italic
+<big>/<small> - change text size
+<sub>/<sup> - move down or up
+<ins> - underline
+<del> - cross
+<marked> - highlight
+<span> - modify text or portion of a text
+<div> - modify the surrounded text as a single group
+
+LISTS
+<ul> <li> text </li> </ul> - unordered list with elements
+<ol type="number/letter"> - ordered list
+<dl> - description
+    <dt> - term
+    <dd> - definition
+
+TABLES
+<table> - create table
+<tr> - table tow
+<th> - table header
+<td> - table data
+<table bgcolor="color" align="alignemnt" width="N" length="N"> - setting table parameters
+
+STYLE  
+<style="color: rgb(N, N, N)"> - rgb color
+
+BUTTONS
+<button> - create a button
+
+FORMS
+<form action="action_page.php" method="POST"> - create a form
+<label for="idname"> - create label with and id
+<input type="text" id="idname" name="name" placholder="text" maxlength="N"> - get text input from user related to an id. 
+Name attribute carries name of the input data. Placeholder is the deafault text
+<input type="reset/submit/password/email/tel/date/number/radio">
+<select> <option></option> </select> - list of options to choose from
+         
